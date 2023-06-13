@@ -1,14 +1,14 @@
 ---
-apiVersion: eksctl.io/v1alpha5                                              # Version of the eksctl configuration API
-kind: ClusterConfig                                                         # Indicates this document is a cluster configuration
+apiVersion: eksctl.io/v1alpha5                  # Version of the eksctl configuration API
+kind: ClusterConfig                             # Indicates this document is a cluster configuration
 
-metadata:                                                                   # Metadata about the EKS cluster
-  name: my-eks                                                              # Name of the EKS cluster
-  region: eu-central-1                                                      # AWS region for the EKS cluster
-  tags:                                                                     # Key-value pairs for resource identification
-    project: my-project                                                     # Tag to identify the project this cluster is associated with
+metadata:                                       # Metadata about the EKS cluster
+  name: my-eks                                  # Name of the EKS cluster
+  region: eu-central-1                          # AWS region for the EKS cluster
+  tags:                                         # Key-value pairs for resource identification
+    project: my-project                         # Tag to identify the project this cluster is associated with
 
-nodeGroups:                                                                 # Define the groups of worker nodes in the cluster
-  - name: worker-node                                                       # Name of the node group
-    instanceType: m5.large                                                  # Type of instance for the nodes
-    desiredCapacity: 3                                                      # Desired number of worker nodes in the node group
+nodeGroups:                                     # Define the groups of worker nodes in the cluster
+  - name: worker-node                           # Name of the node group
+    instanceType: m5.large                      # Type of instance for the nodes
+    desiredCapacity: 3                          # Desired number of worker nodes in the node group
