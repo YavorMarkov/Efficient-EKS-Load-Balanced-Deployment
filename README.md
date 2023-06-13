@@ -1,3 +1,9 @@
+
+
+**NOTE**: This project is currently under construction. Please check back later for updates.
+
+
+
 # Efficient-EKS-Load-Balanced-Deployment
 
 Summary of the Complete Project:
@@ -40,3 +46,8 @@ Use eksctl to delete the EKS cluster.
 Manually check and delete any remaining resources related to VPC, EC2, CloudFormation, and EKS in the AWS Console.
 
 By following these steps, you can successfully set up an EKS cluster, deploy an application, create an Elastic Load Balancer, and clean up the resources when they are no longer needed.
+
+Walkthrough
+
+
+
