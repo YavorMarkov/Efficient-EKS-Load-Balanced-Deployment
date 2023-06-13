@@ -1,4 +1,6 @@
 
+[![Project Status: Under Construction](https://img.shields.io/badge/Project%20Status-Under%20Construction-yellow)](https://github.com/YavorMarkov/Efficient-EKS-Load-Balanced-Deployment/)
+
 
 **NOTE**: This project is currently under construction. Please check back later for updates.
 
