@@ -12,11 +12,11 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
 
 ## Contents:
 
-The complete project involves setting up an Amazon Elastic Kubernetes Service (EKS) cluster, deploying an application, and making it accessible through an Elastic Load Balancer (ELB). The project is divided into several parts, each covering specific tasks and configurations.
 
-Part 1: Set Up an EKS Cluster
-Create an EKS cluster using eksctl and configure it with the necessary parameters.
-Verify the successful creation of the cluster using the AWS Management Console.
+
+**Part 1: Set Up an EKS Cluster
+- Create an EKS cluster using eksctl and configure it with the necessary parameters.
+- Verify the successful creation of the cluster using the AWS Management Console.
 
 Part 2: Deploy an Application to the EKS Cluster
 Create and configure the necessary Kubernetes resources, such as ConfigMaps and Secrets, for the application.
