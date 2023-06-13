@@ -64,5 +64,19 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
    ```bash
    eksctl create cluster -f cluster.yaml
 
+2. **Define the cluster configuration
+
+  For this cluster, we are using a cluster.yaml file to define our cluster setup. Here is the content of cluster.yaml:
+  
+3. **Verify the creation of the EKS Cluster**
+
+   To verify that your EKS cluster has been successfully created, you can check it in the AWS Management Console. 
+
+   - Open the AWS Management Console in your web browser.
+   - Navigate to the EKS service.
+   - Your cluster "my-eks" should be listed once its creation has been successful.
+
+That concludes Part 1 of the project. In the upcoming parts, we will go over deploying an application to the EKS cluster, setting up load balancing, and cleaning up the resources when they are no longer needed.
+
 
 
