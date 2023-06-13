@@ -14,7 +14,7 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
 
 
 
-- **Part 1: Set Up an EKS Cluster
+- **Part 1: Set Up an EKS Cluster**
 - Create an EKS cluster using eksctl and configure it with the necessary parameters.
 - Verify the successful creation of the cluster using the AWS Management Console.
 
