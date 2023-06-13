@@ -1,0 +1,18 @@
+---
+
+eksctl utils associate-iam-oidc-provider --cluster lil-eks --approve
+
+--- 
+ 
+eksctl create iamserviceaccount \
+    --cluster=lil-eks \
+    --name=aws-load-balancer-controller \
+    --namespace=kube-system \
+    --attach-policy-arn=arn:aws:iam::xxxxxxxxxxxx:policy/AWSLoadBalancerControllerIAMPolicy \
+    --approve
+
+--- 
+
+kubectl apply \
+    --validate=false \
+    -f https://github.com/jetstack/cert-manager/releases/download/v1.5.4/cert-manager.yaml
