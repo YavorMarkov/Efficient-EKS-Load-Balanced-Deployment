@@ -8,7 +8,9 @@
 
 # Efficient-EKS-Load-Balanced-Deployment
 
-Summary of the Complete Project:
+The complete project involves setting up an Amazon Elastic Kubernetes Service (EKS) cluster, deploying an application, and making it accessible through an Elastic Load Balancer (ELB). The project is divided into several parts, each covering specific tasks and configurations.
+
+## Contents:
 
 The complete project involves setting up an Amazon Elastic Kubernetes Service (EKS) cluster, deploying an application, and making it accessible through an Elastic Load Balancer (ELB). The project is divided into several parts, each covering specific tasks and configurations.
 
