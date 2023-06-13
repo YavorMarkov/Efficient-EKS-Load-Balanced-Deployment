@@ -59,7 +59,7 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
 
 1. **Create the EKS Cluster**
 
-   Run the following command to create the cluster. Make sure to replace `<cluster-name>` with your desired cluster name and `<node-type>` with the type of node you want to use:
+   Run the following command to create the cluster.
 
    ```bash
    eksctl create cluster -f cluster.yaml
