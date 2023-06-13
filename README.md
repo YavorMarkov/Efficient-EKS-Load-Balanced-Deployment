@@ -64,7 +64,7 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
    ```bash
    eksctl create cluster -f cluster.yaml
 
-2. **Define the cluster configuration
+2. **Define the cluster configuration**
 
   For this cluster, we are using a cluster.yaml file to define our cluster setup. Here is the content of cluster.yaml:
   
