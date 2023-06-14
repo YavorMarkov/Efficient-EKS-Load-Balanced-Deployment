@@ -12,7 +12,7 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
 
 ## Contents:
 
-
+**Prerequsite:** We're going to install three tools on Ubuntu Linux: the AWS CLI for interacting with Amazon Web Services, kubectl for managing Kubernetes clusters, and eksctl for creating and controlling Amazon EKS clusters. After installation, we'll confirm that each tool has been successfully installed and is ready to use.
 
 - **Part 1: Set Up an EKS Cluster**
   - Create an EKS cluster using eksctl and configure it with the necessary parameters.
