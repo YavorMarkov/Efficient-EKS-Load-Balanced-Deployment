@@ -70,7 +70,10 @@ lsb_release -a
 ```bash
 uname -m
 ```
-
+5. In this tutorial, we'll use Snap, a package manager for Linux, to install the AWS CLI. Run:
+``bash
+sudo snap install aws-cli --classic
+```
 
 
 **Part 1: Set Up an EKS Cluster**
