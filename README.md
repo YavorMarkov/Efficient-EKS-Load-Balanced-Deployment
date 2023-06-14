@@ -71,7 +71,7 @@ lsb_release -a
 uname -m
 ```
 5. In this tutorial, we'll use Snap, a package manager for Linux, to install the AWS CLI. Run:
-``bash
+```bash
 sudo snap install aws-cli --classic
 ```
 
