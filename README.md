@@ -53,6 +53,7 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
 By following these steps, you can successfully set up an EKS cluster, deploy an application, create an Elastic Load Balancer, and clean up the resources when they are no longer needed.
 
 # Walkthrough
+# PRERAQUSITE
 ## Part 1: Set Up an EKS Cluster
 
 In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster using the `eksctl` command-line tool.
