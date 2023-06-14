@@ -78,7 +78,22 @@ sudo snap install aws-cli --classic
 ```bash
 aws help
 ```
+**Step 2: Install kubectl on Linux**
 
+kubectl is a command-line tool that allows you to interact with Kubernetes clusters. Let's install it on Linux.
+
+1.Go to the "Install and Set Up kubectl on Linux" page in the official Kubernetes documentation.
+
+2.There are several ways to install kubectl on Linux, but to maintain consistency, we'll use Snap. You can find the snap instructions under the "Other Package Management" section. Run:
+
+```bash
+sudo snap install kubectl --classic
+```
+3. After installation, check if it's installed correctly by running:
+```bash
+kubectl
+```
+If you see a list of commands, that means kubectl is installed.
 
 **Part 1: Set Up an EKS Cluster**
 
