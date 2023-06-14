@@ -74,6 +74,10 @@ uname -m
 ```bash
 sudo snap install aws-cli --classic
 ```
+6. Once the installation is complete, test if it worked by running:
+```bash
+aws help
+```
 
 
 **Part 1: Set Up an EKS Cluster**
