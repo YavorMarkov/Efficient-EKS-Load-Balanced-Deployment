@@ -55,14 +55,20 @@ By following these steps, you can successfully set up an EKS cluster, deploy an 
 # Walkthrough
 # Preraqusite
 
-AWS CLI Installation
-The AWS CLI is a unified tool to manage your AWS services from a terminal session. It brings the power of the AWS console to your terminal.
+Step 1: Install AWS CLI on Linux
+The AWS CLI tool gives you a way to interact with AWS services from your command line rather than the AWS console interface. Let's install it on Linux.
+1.**Open your terminal.**
+2.**If you are uncertain about your Linux distribution, you can find it by running:**
+```bash
+lsb_release -a
+```
+3. Go to the AWS documentation page that describes how to install the AWS CLI. Look for the installation instructions for Linux.
+4. you can install AWS CLI using the curl command, but you need to know your CPU type (X86 or ARM). Run the following command to find out:
+```bash
+uname -m
+```
 
-1. **Installation Steps**
-Install AWS CLI using the Snap package management tool:
-  ```bash
-  sudo snap install aws-cli --classic
-  ```
+
 
 Part 1: Set Up an EKS Cluster
 
