@@ -60,7 +60,7 @@ The AWS CLI is a unified tool to manage your AWS services from a terminal sessio
 
 1. **Installation Steps**
 Install AWS CLI using the Snap package management tool:
-  ```bash
+  
   sudo snap install aws-cli --classic
 
 
