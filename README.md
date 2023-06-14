@@ -73,7 +73,7 @@ uname -m
 
 
 
-Part 1: Set Up an EKS Cluster
+**Part 1: Set Up an EKS Cluster**
 
 In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster using the `eksctl` command-line tool.
 
