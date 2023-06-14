@@ -63,7 +63,7 @@ The AWS CLI tool gives you a way to interact with AWS services from your command
 lsb_release -a
 ```
 3. Go to the AWS documentation page that describes how to install the AWS CLI. Look for the installation instructions for Linux.
-4. you can install AWS CLI using the curl command, but you need to know your CPU type (X86 or ARM). Run the following command to find out:
+4. You can install AWS CLI using the curl command, but you need to know your CPU type (X86 or ARM). Run the following command to find out:
 ```bash
 uname -m
 ```
