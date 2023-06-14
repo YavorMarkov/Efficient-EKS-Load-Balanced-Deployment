@@ -56,6 +56,7 @@ By following these steps, you can successfully set up an EKS cluster, deploy an 
 # Preraqusite
 
 **Step 1: Install AWS CLI on Linux**
+
 The AWS CLI tool gives you a way to interact with AWS services from your command line rather than the AWS console interface. Let's install it on Linux.
 1.**Open your terminal.**
 2.**If you are uncertain about your Linux distribution, you can find it by running:**
