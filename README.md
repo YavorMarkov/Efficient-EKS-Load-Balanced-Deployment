@@ -54,6 +54,12 @@ By following these steps, you can successfully set up an EKS cluster, deploy an 
 
 # Walkthrough
 # Preraqusite
+
+AWS CLI Installation
+The AWS CLI is a unified tool to manage your AWS services from a terminal session. It brings the power of the AWS console to your terminal.
+
+1. **Installation Steps**
+Install AWS CLI using the Snap package management tool:
 ## Part 1: Set Up an EKS Cluster
 
 In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster using the `eksctl` command-line tool.
