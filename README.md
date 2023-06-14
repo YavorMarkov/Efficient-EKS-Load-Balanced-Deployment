@@ -95,6 +95,32 @@ kubectl
 ```
 If you see a list of commands, that means kubectl is installed.
 
+***Step 3: Install eksctl on Linux***
+
+eksctl is a command-line tool that allows you to create and manage AWS EKS clusters.
+
+1.Go to the "Installing or updating eksctl" page in the official AWS documentation.
+
+2. Click on the tab for Linux. Note that there's no snap package for eksctl, so we'll use curl to download the executable. Run:
+
+```bash
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+```
+
+3.Move the executable to your /usr/local/bin directory:
+
+```bash
+sudo mv /tmp/eksctl /usr/local/bin
+```
+4.Verify the installation by running:
+
+```bash
+eksctl
+```
+If you see a list of commands, that means eksctl is properly installed.
+
+Now, you have successfully installed AWS CLI, kubectl, and eksctl on your Ubuntu Linux system. Great work!
+
 **Part 1: Set Up an EKS Cluster**
 
 In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster using the `eksctl` command-line tool.
