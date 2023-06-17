@@ -145,6 +145,8 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
    - Navigate to the EKS service.
    - Your cluster "my-eks" should be listed once its creation has been successful.
 
+  ![](https://github.com/YavorMarkov/Efficient-EKS-Load-Balanced-Deployment/blob/main/images/Created_Cluster_3.JPG)
+
 That concludes Part 1 of the project. In the upcoming parts, we will go over deploying an application to the EKS cluster, setting up load balancing, and cleaning up the resources when they are no longer needed.
 
 **Part 2:** ***Coming Soon***
