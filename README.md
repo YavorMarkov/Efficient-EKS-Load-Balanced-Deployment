@@ -135,6 +135,7 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
 2. **Define the cluster configuration**
 
   For this cluster, we are using a cluster.yaml file to define our cluster setup.You can find this file in the main project directory.
+  The process of forming a cluster might take some time, potentially up to half an hour. Once it's done, a notification similar to this will appear.
   
 3. **Verify the creation of the EKS Cluster**
 
