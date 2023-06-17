@@ -136,11 +136,14 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
 
   For this cluster, we are using a cluster.yaml file to define our cluster setup.You can find this file in the main project directory.
   The process of forming a cluster might take some time, potentially up to half an hour. Once it's done, a notification similar to this will appear.
+  ![]([https://github.com/username/repository/blob/main/image.jpg](https://github.com/YavorMarkov/Efficient-EKS-Load-Balanced-Deployment/blob/main/images/Created_cluster_1.JPG))
+   ![](https://github.com/YavorMarkov/Efficient-EKS-Load-Balanced-Deployment/blob/main/images/Created_cluster_2.jpg)
+
   
 3. **Verify the creation of the EKS Cluster**
 
-   To verify that your EKS cluster has been successfully created, you can check it in the AWS Management Console. 
-
+   To verify that your EKS cluster has been successfully created, you can check it in the AWS Management Console.
+   
    - Open the AWS Management Console in your web browser.
    - Navigate to the EKS service.
    - Your cluster "my-eks" should be listed once its creation has been successful.
