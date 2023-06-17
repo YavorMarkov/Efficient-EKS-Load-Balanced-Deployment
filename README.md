@@ -153,3 +153,7 @@ That concludes Part 1 of the project. In the upcoming parts, we will go over dep
 **Part 2:** ***Coming Soon***
 
 
+
+*We used already prepaired and upload docker image. 
+
+
