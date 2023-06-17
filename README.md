@@ -119,6 +119,7 @@ Now, you have successfully installed AWS CLI, kubectl, and eksctl on your Ubuntu
 [Empty space line]
 Once you have fulfilled the prerequisites mentioned above, you can proceed with the following steps to get started:
 
+
 **Part 1: Set Up an EKS Cluster**
 
 In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster using the `eksctl` command-line tool.
