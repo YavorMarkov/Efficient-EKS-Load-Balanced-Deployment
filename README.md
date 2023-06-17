@@ -143,8 +143,7 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
    
    - Open the AWS Management Console in your web browser.
    - Navigate to the EKS service.
-   - Your cluster "my-eks" should be listed once its creation has been successful.
-   - We have successfully created the EKS cluster "my-eks", as confirmed by the AWS Management Console, as shown in the screenshot below
+   - Your cluster "my-eks" should be listed once its creation has been successful. We have successfully created the EKS cluster "my-eks", as confirmed by the AWS Management Console, as shown in the screenshot below
 
   ![](https://github.com/YavorMarkov/Efficient-EKS-Load-Balanced-Deployment/blob/main/images/Created_Cluster_3.JPG)
 
