@@ -171,7 +171,7 @@ That concludes Part 1 of the project. In the upcoming parts, we will go over dep
 
 
 
-<sub><i>We leveraged a pre-built and uploaded Docker image in this project.</i></sub>
+                                                                              <sub><i>We leveraged a pre-built and uploaded Docker image in this project.</i></sub>
 
 
 
