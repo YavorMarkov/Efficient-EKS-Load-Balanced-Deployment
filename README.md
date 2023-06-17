@@ -17,24 +17,20 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
 - **Part 1: Set Up an EKS Cluster**
   - Create an EKS cluster using eksctl and configure it with the necessary parameters.
   - Verify the successful creation of the cluster using the AWS Management Console.
-
-- **Part 2: Deploy an Application to the EKS Cluster**
-  - Create and configure the necessary Kubernetes resources, such as ConfigMaps and Secrets, for the application*.
+    
+- **Part 2: Deploy an Application to Your EKS Cluster**
   - Build and push a Docker image of the application to a container registry (Docker Hub)*.
-  - Deploy the application to the EKS cluster using Kubernetes manifests.
-
-- **Part 3: Deploy an Application to Your EKS Cluster**
   - Create a Kubernetes namespace and verify its creation.
   - Configure a deployment manifest for the application, specifying details like the container image, replicas, and environment variables.
   - Apply the deployment manifest and verify the successful creation of the deployment.
   - Create a service manifest to enable load balancing and expose the application externally.
   - Apply the service manifest and verify the successful creation of the service.
 
-- **Part 4: Troubleshoot Service Account Issues**
+- **Part 3: Troubleshoot Service Account Issues**
   - Troubleshoot common issues related to the Kubernetes service account, IAM policies, and AWS Load Balancer Controller.
   - Resolve issues such as failed CloudFormation stacks, incorrect command values, and formatting errors.
 
-- **Part 5: Install the AWS Load Balancer Controller**
+- **Part 4: Install the AWS Load Balancer Controller**
   - Install Cert Manager, a Kubernetes add-on for managing TLS certificates.
   - Install the AWS Load Balancer Controller, which manages Elastic Load Balancers for the EKS cluster.
   - Configure necessary parameters in the load-balancer-controller.yaml file, such as VPC ID and AWS region.
@@ -44,7 +40,7 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
   - Verify the creation of the Elastic Load Balancer in the AWS Management Console.
   - Access the application using the provided DNS name once the load balancer is active.
 
-- **Part 6: Clean Up**
+- **Part 5: Clean Up**
   - Manually delete the load balancers from the AWS Console.
   - Use eksctl to delete the EKS cluster.
   - Manually check and delete any remaining resources related to VPC, EC2, CloudFormation, and EKS in the AWS Console.
