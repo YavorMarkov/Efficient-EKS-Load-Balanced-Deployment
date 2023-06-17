@@ -19,8 +19,8 @@ The complete project involves setting up an Amazon Elastic Kubernetes Service (E
   - Verify the successful creation of the cluster using the AWS Management Console.
 
 - **Part 2: Deploy an Application to the EKS Cluster**
-  - Create and configure the necessary Kubernetes resources, such as ConfigMaps and Secrets, for the application.
-  - Build and push a Docker image of the application to a container registry (Docker Hub).
+  - Create and configure the necessary Kubernetes resources, such as ConfigMaps and Secrets, for the application*.
+  - Build and push a Docker image of the application to a container registry (Docker Hub)*.
   - Deploy the application to the EKS cluster using Kubernetes manifests.
 
 - **Part 3: Deploy an Application to Your EKS Cluster**
