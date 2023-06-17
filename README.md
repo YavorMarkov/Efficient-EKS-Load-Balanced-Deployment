@@ -154,6 +154,6 @@ That concludes Part 1 of the project. In the upcoming parts, we will go over dep
 
 
 
-*We used already prepaired and upload docker image. 
+<small>* We used already prepaired and upload docker image. </small>
 
 
