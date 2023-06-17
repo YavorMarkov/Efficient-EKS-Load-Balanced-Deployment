@@ -1,6 +1,6 @@
 ---
 
-eksctl utils associate-iam-oidc-provider --cluster lil-eks --approve
+eksctl utils associate-iam-oidc-provider --cluster my-eks --approve
 
 --- 
  
