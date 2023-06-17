@@ -116,6 +116,7 @@ eksctl
 If you see a list of commands, that means eksctl is properly installed.
 
 Now, you have successfully installed AWS CLI, kubectl, and eksctl on your Ubuntu Linux system. Great work!
+[Empty space line]
 Once you have fulfilled the prerequisites mentioned above, you can proceed with the following steps to get started:
 
 
