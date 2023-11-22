@@ -162,7 +162,7 @@ That concludes Part 1 of the project. In the upcoming parts, we will go over dep
 
 *<sub><i>We leveraged a pre-built and uploaded Docker image in this project.</i></sub>
 
-**<sub><i>I will will put next step soon. The code in reposotory is compleate and full. </i></sub>
+**<sub><i>I will put next step soon. The code in reposotory is compleate and full. </i></sub>
 
 
 
