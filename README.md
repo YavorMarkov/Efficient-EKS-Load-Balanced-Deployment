@@ -152,7 +152,7 @@ In this part, we will create an Amazon Elastic Kubernetes Service (EKS) cluster 
 
 That concludes Part 1 of the project. In the upcoming parts, we will go over deploying an application to the EKS cluster, setting up load balancing, and cleaning up the resources when they are no longer needed.
 
-**Part 2:** *****
+**Part 2:**
 
 
 
@@ -161,6 +161,8 @@ That concludes Part 1 of the project. In the upcoming parts, we will go over dep
 
 
 *<sub><i>We leveraged a pre-built and uploaded Docker image in this project.</i></sub>
+
+**<sub><i>I will will put next step soon .</i></sub>
 
 
 
